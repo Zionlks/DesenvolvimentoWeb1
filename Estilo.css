@@ -1,22 +1,86 @@
 body{
-    background-color: rgb(197, 72, 72);    
     font-family: arial;
+    background-color: rgb(197, 72, 72);
 }
 
 #cabecalho{
-    padding: 50px;
+    margin: 30px;
+    color: white;
+    
+}
+#menu ul {
+    text-align: center; /*Deixa o conteudo no centro*/
+    list-style-type: none; /*Tira a bolinha chata da esquerda*/
+   
+}
+#menu ul li{
+    display: inline;  /*Deixa o conteudo na linha*/
+    padding: 10px;
+    background-color: tomato;
+}
+#menu ul li a{
+    text-decoration: none;
     color: white;
 }
+#menu ul li:hover{
+    background-color:rgb(78, 0, 0)
+}
 
-#lista{
-    background-color: tomato;
+#menu{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #tema{
-    display: block;
+    height: 50%;
+    border-bottom: 2px solid black;
+}
+.conteudo {
+    
+    width: 49%;
+    background-color: black;
+
+   
+    
+}
+.conteudo ul{
+    
+    list-style-type: none;
+    color: white;
+   
+}
+.conteudo ul li {
+    margin-bottom: 20px;
+}
+.conteudo.esquerda ul{
+    padding-left: 15px;
+}
+.conteudo.direita ul{
+    padding: 0;
+}
+.conteudo.esquerda{
+    margin-top: 18px;
+    float: left;
+    border-right: 1px solid black;
+    
+    background-color: rgb(197, 72, 72);
 }
 
-#tema h3,h4{
-    padding:0px;
-    margin:0px;
+.conteudo.direita{
+    margin-top: 23px;
+    float: right;
+   
+    border-right: 1px solid black;
+    background-color: rgb(197, 72, 72);
 }
+#rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 10px;
+    width: 100%;
+    height: 27.6%;
+    color: white;
+}
+
+    
