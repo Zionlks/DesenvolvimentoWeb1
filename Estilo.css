@@ -1,5 +1,4 @@
 body{
-    padding: 30px;
     background-color: rgb(197, 72, 72);    
     font-family: arial;
 }
@@ -11,4 +10,13 @@ body{
 
 #lista{
     background-color: tomato;
+}
+
+#tema{
+    display: block;
+}
+
+#tema h3,h4{
+    padding:0px;
+    margin:0px;
 }
